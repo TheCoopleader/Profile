@@ -2,7 +2,11 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <section className='w-full h-screen relative'>Home
+      <div className='absolute top-28'>
+        Welcome to my website!
+      </div>
+    </section>
   )
 }
 
